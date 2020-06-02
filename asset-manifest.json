@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/quote-machine/static/css/main.72bd3fa5.chunk.css",
+    "main.js": "/quote-machine/static/js/main.590396a5.chunk.js",
+    "main.js.map": "/quote-machine/static/js/main.590396a5.chunk.js.map",
+    "runtime-main.js": "/quote-machine/static/js/runtime-main.6752162c.js",
+    "runtime-main.js.map": "/quote-machine/static/js/runtime-main.6752162c.js.map",
+    "static/js/2.36631971.chunk.js": "/quote-machine/static/js/2.36631971.chunk.js",
+    "static/js/2.36631971.chunk.js.map": "/quote-machine/static/js/2.36631971.chunk.js.map",
+    "index.html": "/quote-machine/index.html",
+    "precache-manifest.47a4919e2ad1e2ba92431ebedc16f09e.js": "/quote-machine/precache-manifest.47a4919e2ad1e2ba92431ebedc16f09e.js",
+    "service-worker.js": "/quote-machine/service-worker.js",
+    "static/css/main.72bd3fa5.chunk.css.map": "/quote-machine/static/css/main.72bd3fa5.chunk.css.map",
+    "static/js/2.36631971.chunk.js.LICENSE.txt": "/quote-machine/static/js/2.36631971.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6752162c.js",
+    "static/js/2.36631971.chunk.js",
+    "static/css/main.72bd3fa5.chunk.css",
+    "static/js/main.590396a5.chunk.js"
+  ]
+}
