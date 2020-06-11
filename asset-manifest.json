@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/quote-machine/static/css/main.72bd3fa5.chunk.css",
-    "main.js": "/quote-machine/static/js/main.590396a5.chunk.js",
-    "main.js.map": "/quote-machine/static/js/main.590396a5.chunk.js.map",
+    "main.css": "/quote-machine/static/css/main.1325f6c5.chunk.css",
+    "main.js": "/quote-machine/static/js/main.7a7db5e7.chunk.js",
+    "main.js.map": "/quote-machine/static/js/main.7a7db5e7.chunk.js.map",
     "runtime-main.js": "/quote-machine/static/js/runtime-main.6752162c.js",
     "runtime-main.js.map": "/quote-machine/static/js/runtime-main.6752162c.js.map",
     "static/js/2.36631971.chunk.js": "/quote-machine/static/js/2.36631971.chunk.js",
     "static/js/2.36631971.chunk.js.map": "/quote-machine/static/js/2.36631971.chunk.js.map",
     "index.html": "/quote-machine/index.html",
-    "precache-manifest.73034f75a024c8c3c733e804943400da.js": "/quote-machine/precache-manifest.73034f75a024c8c3c733e804943400da.js",
+    "precache-manifest.55ad218bba720c1af290356ad85a5734.js": "/quote-machine/precache-manifest.55ad218bba720c1af290356ad85a5734.js",
     "service-worker.js": "/quote-machine/service-worker.js",
-    "static/css/main.72bd3fa5.chunk.css.map": "/quote-machine/static/css/main.72bd3fa5.chunk.css.map",
+    "static/css/main.1325f6c5.chunk.css.map": "/quote-machine/static/css/main.1325f6c5.chunk.css.map",
     "static/js/2.36631971.chunk.js.LICENSE.txt": "/quote-machine/static/js/2.36631971.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6752162c.js",
     "static/js/2.36631971.chunk.js",
-    "static/css/main.72bd3fa5.chunk.css",
-    "static/js/main.590396a5.chunk.js"
+    "static/css/main.1325f6c5.chunk.css",
+    "static/js/main.7a7db5e7.chunk.js"
   ]
 }
