@@ -61,14 +61,17 @@ class App extends React.Component {
 
   render () {
     return ( 
-      <div className="App" style={{backgroundColor: this.state.colors[this.state.color]}}>
+      <div className="App" style={{borderColor: this.state.colors[this.state.color]}}>
         <div id="quote-box">
-          <h1 id="text">"{this.state.quotes[this.state.quote].quote}"</h1>
-          <h1 id="author">{this.state.quotes[this.state.quote].author}</h1>
-          <a onClick={this.setTweet} id="tweet-quote" href={this.state.tweet} data-text="hello" 
-            target="_blank" rel="noopener noreferrer">Tweet this quote</a>
-          <button id="new-quote" onClick={this.handleClick} style={{color: this.state.colors[this.state.color]}}>New Quote</button>
+          <div id="parent">
+            <h1 id="text">"{this.state.quotes[this.state.quote].quote}"<br />
+              <br /> - {this.state.quotes[this.state.quote].author}</h1>
+          </div>
         </div>
+        <a onClick={this.setTweet} id="tweet-quote" href={this.state.tweet} data-text="hello" 
+            target="_blank" rel="noopener noreferrer">Tweet this quote</a>
+          <button id="new-quote" onClick={this.handleClick} 
+            style={{backgroundColor: this.state.colors[this.state.color]}}>New Quote</button>
       </div>
     );
   }

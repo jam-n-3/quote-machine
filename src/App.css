@@ -1,30 +1,57 @@
 .App {
-  text-align: center;
   position: absolute;
-  top: 0;
-  height: 100vh;
-  width: 100vw;
-  position: relative;
+  height: 80%;
+  width: 80%;
+  top: 10%;
+  left: 10%;
+  border: 1vw solid;
+  border-radius: 10px;
+  overflow: auto;
+  text-align: center;
+}
+
+#parent {
+  display: flex;
+  align-items: center;
+  height: 70vh;
 }
 
 #quote-box {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border: 5px solid white;
-  border-radius: 10px;
-  padding: 10px 10px 10px 10px;
+  margin: 5vh 5vw;
+  
+}
+
+@media (max-width: 499px) {
+  #quote-box {
+    font-size: 4vw;
+  }  
+}
+
+@media (min-width: 500px) and (max-width: 767px){
+  #quote-box {
+    font-size: 3vw;
+  }  
+}
+
+@media (min-width: 768px){
+  #quote-box {
+    font-size: 2vw;
+  }  
 }
 
 #tweet-quote {
+  position: absolute;
+  left: 1vw;
+  bottom: 1vh;
   color: white;
-  float: left;
 }
 
 #new-quote {
-  float: right;
-  background-color: white;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: white;
   border: none;
   padding: 5px 5px;
+  font-size: 1em;
 }
